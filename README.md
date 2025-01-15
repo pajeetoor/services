@@ -1,8 +1,10 @@
-# services
-Paj33tooor Services
+# Services
 
+## Paj33tooor Services
 
-Response creation process
+### 🛠️ Response Creation Process
+
+```typescript
 async utkrishtPratikriyaSrijan(
   bolneWale: Agent,
   baatcheet: AgentSambhaashan,
@@ -31,6 +33,7 @@ async utkrishtPratikriyaSrijan(
       baatcheet.sandesh,
       tantraSoochna
     );
+
   } catch (truti) {
     // Truti ka samadhan aur punarprayatn
   }
